@@ -55,7 +55,7 @@ const pricingTiers = [
 
 const Pricing = () => {
   return (
-    <section className='p-5 md:p-11 lg:p-20 py-24'>
+    <section className='p-5 md:p-11 lg:p-20 py-24 bg-white'>
       <div>
         <h2 className='section-title'>
           A more effective way to track progress
@@ -79,7 +79,7 @@ const Pricing = () => {
               <div
                 key={title}
                 className={twMerge(
-                  'p-10 border border-[#f1f1f1] rounded-3xl shadow-xl max-w-sm w-full',
+                  'card',
                   !!inverse && 'border-black bg-black text-white'
                 )}
               >

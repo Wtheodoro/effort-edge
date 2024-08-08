@@ -34,4 +34,8 @@
   .section-description {
     @apply text-center text-[22px] leading-8 tracking-tight text-[#010d3e];
   }
+
+  .card {
+    @apply p-10 border border-[#222222]/10 rounded-3xl shadow-[0_7px_14px_#eaeaea] max-w-sm w-full;
+  }
 }
