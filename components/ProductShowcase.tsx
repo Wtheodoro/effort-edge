@@ -5,8 +5,8 @@ import torusImage from '@/assets/torus.svg?url'
 
 const ProductShowcase = () => {
   return (
-    <section className='p-5 md:p-11 lg:p-20 bg-gradient-to-b from-[#ffffff] to-[#d2dcff] py-24 overflow-x-clip'>
-      <div className=''>
+    <section className='bg-gradient-to-b from-[#ffffff] to-[#d2dcff] py-24 overflow-x-clip'>
+      <div className='container'>
         <div className='max-w-[540px] mx-auto'>
           <div className='flex justify-center'>
             <div className='tag'>Boost your productivity</div>

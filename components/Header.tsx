@@ -16,7 +16,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className='p-5'>
+      <div className='p-5 lg:px-20'>
         <div className='container'>
           <div className='flex items-center justify-between'>
             <Image src={Logo} alt='Saas Logo' height={40} width={40} />

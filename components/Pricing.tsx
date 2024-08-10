@@ -55,8 +55,8 @@ const pricingTiers = [
 
 const Pricing = () => {
   return (
-    <section className='p-5 md:p-11 lg:p-20 py-24 bg-white'>
-      <div>
+    <section className='bg-white py-24'>
+      <div className='container'>
         <h2 className='section-title'>
           A more effective way to track progress
         </h2>
