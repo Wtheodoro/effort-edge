@@ -1,11 +1,6 @@
 'use client'
 
-import {
-  motion,
-  useScroll,
-  useTransform,
-  useMotionValueEvent,
-} from 'framer-motion'
+import { motion } from 'framer-motion'
 
 import Image from 'next/image'
 import acmeLogo from '@/assets/logo-acme.png'
