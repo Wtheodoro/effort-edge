@@ -1,11 +1,6 @@
 'use client'
 
-import {
-  motion,
-  useScroll,
-  useTransform,
-  useMotionValueEvent,
-} from 'framer-motion'
+import { motion, useScroll, useTransform } from 'framer-motion'
 
 import Image from 'next/image'
 import pyramidImage from '@/assets/pyramid.svg?url'
